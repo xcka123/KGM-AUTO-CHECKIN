@@ -2,7 +2,6 @@ name: 仓库保活
 
 on:
   schedule:
-    # 每月1号凌晨1点自动执行（避开GitHub高峰期）
     - cron: '50 4 * * *'
   workflow_dispatch:
 
